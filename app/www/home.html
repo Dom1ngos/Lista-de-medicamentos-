@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>petvida</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/materialize.min.js"></script>
+
+    <script>
+        var db = window.localStorage;
+        
+        $(document).ready(function(){
+            $(".sidenav").sidenav();
+
+
+        });
+    </script>
+    <style>
+        .cursor{
+            cursor:pointer;
+        }
+        .round-50{
+            border-radius: 50px;
+        }
+        .padding0{
+            padding:0px !important;
+        }
+        .underline{
+            text-decoration: underline;
+        }
+        #slide-out a{
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" style="max-width:none; width:100vw; height: 100vh; background: #00E3A2;">
+        <div class="row">
+
+            <!-- <nav style="background: #454d4b">
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="fas fa-bars col s1">M</i></a>
+                <img src="assets/img/logo.png" class="col s4 offset-s2" style="margin-top:13px;"/>
+            </nav> -->
+
+
+            <!-- <ul id="slide-out" class="sidenav" style="background: #454d4b;">
+                <li><a href="#!" data-target="slide-out" class="sidenav-trigger"><i class="fa fa-home"><</i></a></li>
+                <li><a href="#!"><i class="fa fa-home"></i></a></li>
+                <li><a href="#!"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#!"><i class="fa fa-home"></i>Pontos de interesse</a></li>
+                <li><a href="#!"><i class="fa fa-home"></i>Lazer</a></li>
+                <li><a href="#!"><i class="fa fa-home"></i>Esportes e saúde</a></li>
+                <li><a href="#!"><i class="fa fa-home"></i>Bares e restaurantes</a></li>
+                <li><a href="#!"><i class="fa fa-home"></i>Clubes</a></li>
+                <li><a href="#!"><i class="fa fa-home"></i>Marinas</a></li>
+                <li><a href="#!"><i class="fa fa-home"></i>Condominios e hoteis</a></li>
+                <li><a href="#!"><i class="fa fa-home"></i>Eventos</a></li>
+                <li><a href="#!"><i class="fa fa-home"></i>Configurções</a></li>
+            </ul> -->
+
+            <div class="col s12">&nbsp;</div>
+            <h5 class="col s12 center-align">Lista de medicamentos para aplicação</h5>
+            <div class="col s12">&nbsp;</div>
+            <div class="col s6">
+                <div class="col s12 btn red">Buscar Pets</div>
+            </div>
+            <div class="col s6">
+                <div class="col s12 btn red">Registrar ocorrência</div>
+            </div>
+            <div class="col s12">&nbsp;</div>
+            <div class="col s12">
+                <ul class="collection with-header">
+                    <li class="collection-header" style="background: #f0f0f0 !important;"><h5>Lista de aplicações</h5></li>
+                    <li class="collection-header" style="background: #FFF9A9 !important;"><h5>30/03/2022</h5></li>
+                    <li class=" collection-item" style="padding:5px !important">
+                        <div class="col s10 p-0" style="padding:0px !important">
+                            <h5 class="col s12">Bento</h5>
+                            <div class="col s12">Dipirona</div>
+                        </div>
+                        <div class="col s2 p-0" style="padding:0px !important">
+                            <h5>18:00</h5>
+                            <i class="fa-solid fa-triangle-exclamation fa-2x"></i>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </li>
+                    <li class=" collection-item" style="padding:5px !important">
+                        <div class="col s10 p-0" style="padding:0px !important">
+                            <h5 class="col s12">Bento</h5>
+                            <div class="col s12">Dipirona</div>
+                        </div>
+                        <div class="col s2 p-0" style="padding:0px !important">
+                            <h5>18:00</h5>
+                            <i class="fa-solid fa-triangle-exclamation fa-2x"></i>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </li>
+                    <li class=" collection-item" style="padding:5px !important">
+                        <div class="col s10 p-0" style="padding:0px !important">
+                            <h5 class="col s12">Bento</h5>
+                            <div class="col s12">Dipirona</div>
+                        </div>
+                        <div class="col s2 p-0" style="padding:0px !important">
+                            <h5>18:00</h5>
+                            <i class="fa fa-alert fa-2x"></i>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        
+        </div>
+    </div>
+    
+</body>
+</html>
